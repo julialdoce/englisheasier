@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Inglês - Para Mamãe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Aprendendo Inglês - Para Mamãe</h1>
+        <p>Aprenda inglês de forma divertida e interativa!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#aulas">Aulas Interativas</a></li>
+            <li><a href="#musicas">Louvores e Músicas</a></li>
+            <li><a href="#quizzes">Jogos e Quizzes</a></li>
+            <li><a href="#dicionario">Dicionário Pessoal</a></li>
+        </ul>
+    </nav>
+
+    <section id="aulas">
+        <h2>Aulas Interativas</h2>
+        <p>Aprenda vocabulário útil para o dia a dia e frases práticas!</p>
+        <button onclick="startLesson()">Iniciar Aula</button>
+    </section>
+
+    <section id="musicas">
+        <h2>Louvores e Músicas</h2>
+        <p>Aprenda inglês com músicas gospel!</p>
+        <button onclick="playMusic()">Ouvir Louvor</button>
+    </section>
+
+    <section id="quizzes">
+        <h2>Jogos e Quizzes</h2>
+        <p>Teste seu aprendizado com quizzes e jogos!</p>
+        <button onclick="startQuiz()">Iniciar Quiz</button>
+    </section>
+
+    <section id="dicionario">
+        <h2>Dicionário Pessoal</h2>
+        <p>Adicione palavras novas que aprendeu!</p>
+        <input type="text" id="newWord" placeholder="Digite a palavra">
+        <button onclick="addWord()">Adicionar Palavra</button>
+        <ul id="wordList"></ul>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por [Seu Nome] para minha mãe!</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
